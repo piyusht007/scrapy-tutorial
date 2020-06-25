@@ -21,6 +21,8 @@ scrapy crawl postal_codes -o csv
 scrapy crawl postal_codes -o xml
 ``` 
 
+Actual output files (**items.json & items.csv**) have also been attached for reference. 
+
 ### Note
 
 Install ```scrapy``` module on your machine and have a virtual environment to be able to run this code. Follow instructions from https://scrapy.org/
