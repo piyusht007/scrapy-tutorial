@@ -93,6 +93,15 @@ Before we execute `scrapyd-deploy` we have to make following changes to the `scr
         url = http://localhost:6800/
         project = <your_project_name>
         ```
+      
+ * Once the project is uploaded we can schedule the spider to run as follows:
+     ```shell script
+    scrapyd-client schedule -p <your_project_name>
+    ```
+    Alternatively, you can also schedule the spider to run by calling schedule endpoint as follows:
+    ```shell script
+    curl http://localhost:6800/schedule.json -d project=<your_project_name> -d spider=<your_spider_name>
+    ```
  
 ---
 [install-scrapy-ubuntu]:https://docs.scrapy.org/en/latest/intro/install.html#ubuntu-14-04-or-above
