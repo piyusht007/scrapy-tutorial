@@ -35,7 +35,7 @@ Use scrapy shell to quickly crawl something and extract data in real-time. Follo
 scrapy shell "https://worldpostalcode.com/india/madhya-pradesh/jabalpur/"
 ``` 
 
-#### Deploying your spiders to Ubuntu using **_scrapyd_**
+### Deploying your spiders to Ubuntu using **_scrapyd_**
 
 As explained [here][install-scrapy-ubuntu], scrapy can be installed on Ubuntu by following below steps:
 
